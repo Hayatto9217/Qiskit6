@@ -4,3 +4,6 @@ Qiskit Terra の中核コンポーネントはトランスパイラーで、モ�
 このノートブックでは、ビルドインされたパスを調べ、パスマネージャーの利用法を確認し、簡単なトランスパイラーパスを開発します。そのために、最初に有向非巡回グラフ（Directed Acyclic Graph、DAG）の形で、Qiskitにおける量子回路の内部表現を紹介します。次に、入力回路を接続性の制限された量子デバイスと互換性を持つように変換する、単純な swap mapper パスを示します。
 
 始める前に: DAGプロットルーチンの pydot ライブラリと graphviz ライブラリをインストールする必要があります。 Anaconda Python を使用している場合は、conda コマンドを使用して両方をインストールできます。 システムのネイティブ Python インタプリタを使用する場合は、pip コマンドを使用して pydot をインストールし、システムのネイティブ パッケージ マネージャー (例．yum, apt, dnf, brew など) を使用して graphviz をインストールします。
+
+
+# https://qiskit.org/documentation/locale/ja_JP/tutorials/circuits_advanced/04_transpiler_passes_and_passmanager.html
